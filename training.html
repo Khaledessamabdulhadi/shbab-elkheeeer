@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موسسة شباب الخير</title>
+    <!-- Swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- Css File -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/logo-01.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Header Section -->
+    <div class="header">
+        <div class="container">
+            <div class="item-image">
+                <div class="image">
+                    <img src="image/logo-01.png" alt="">
+                </div>
+                <div class="contact">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <div class="info">
+                        <span>اتصل بنا</span>
+                        <span>01010101010</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-button">
+                <button href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <button href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>حساب شخصي</span>
+                    <div class="item-btn">
+                        <a href="signup.html">تسجيل حساب جديد</a>
+                        <a href="signin.html">تسجيل الدخول</a>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="nav-header">
+        <div class="container">
+            <div class="text">
+                <h3><span>موسسة</span> شباب الخير</h3>
+            </div>
+            <div class="items">
+                <div class="box">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <a href="index.html">الرئيسية</a>
+                </div>
+                <div class="box">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-medal"></i> من نحن <i class="fa-solid fa-caret-down"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#home"><span>من نحن</span></a>
+                            <a href="#about"><span>اعضاء مجلس الامناء</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-handshake"></i>
+                    <a href="initiatives.html">المبادرات</a>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-truck"></i>
+                    <a href="caravans.html">القوافل</a>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-gift"></i>
+                    <a href="events.html">الحفلات والايفنتات</a>
+                </div>
+                <div class="box">
+                    <div class="dropdown">
+                        <button onclick="myFunction1()" class="dropbtn"><i class="fa-solid fa-medal"></i>البرامج<i class="fa-solid fa-caret-down"></i></button>
+                        <div id="myDropdown1" class="dropdown-content">
+                            <a href="clothes.html"><span>ملابس الاعياد</span></a>
+                            <a href="Tables.html"><span>موائدرمضانية </span></a>
+                            <a href="school.html"><span>الانشطة المدرسية</span></a>
+                            <a href="dangerous.html"><span>المخاطر والازمات</span></a>
+                            <a href="marry.html"><span>تجهيز العرائس</span></a>
+                            <a href="help.html"><span>المساعدات الاجتماعية</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="dropdown">
+                        <button onclick="myFunction2()" class="dropbtn"><i class="fa-solid fa-medal"></i>الانشطة<i class="fa-solid fa-caret-down"></i></button>
+                        <div id="myDropdown2" class="dropdown-content">
+                            <a href="training.html"><span>تدريب</span></a>
+                            <a href="courses.html"><span>كورسات</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-gift"></i>
+                    <a href="events.html">البروتوكلات و الشركات</a>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <a href="project.html">المشاريع</a>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="#" class="open" onclick="openNav()">&#9776</a>
+            </div>
+            <div id="mySidenav" class="mega-menu">
+                <div class="info">
+                    <h3><span>موسسة</span>شباب الخير</h3>
+                    <a href="#" class="clsoebtn" onclick="closeNav()">&times;</a>
+                </div>
+                <div class="content">
+                    <div class="box">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <a href="#">الرئيسية</a>
+                    </div>
+                    <div class="box">
+                        <div class="dropdown">
+                            <button onclick="myFunction3()" class="dropbtn"><i class="fa-solid fa-medal"></i><span>من نحن</span><i class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown3" class="dropdown-content">
+                                <a href="who.html"><span>من نحن</span></a>
+                                <a href="#about"><span>اعضاء مجلس الامناء</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-handshake"></i>
+                        <a href="#">المبادرات</a>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="#">القوافل</a>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-gift"></i>
+                        <a href="#">الحفلات والايفنتات</a>
+                    </div>
+
+                    <div class="box">
+                        <div class="dropdown">
+                            <button onclick="myFunction4()" class="dropbtn"><i class="fa-solid fa-medal"></i><span>البرامج</span><i class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown4" class="dropdown-content">
+                                <a href="clothes.html"><span>ملابس الاعياد</span></a>
+                                <a href="Tables.html"><span>موائدرمضانية </span></a>
+                                <a href="school.html"><span>الانشطة المدرسية</span></a>
+                                <a href="dangerous.html"><span>المخاطر والازمات</span></a>
+                                <a href="marry.html"><span>تجهيز العرائس</span></a>
+                                <a href="help.html"><span>المساعدات الاجتماعية</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="dropdown">
+                            <button onclick="myFunction5()" class="dropbtn"><i class="fa-solid fa-medal"></i><span>الانشطة</span><i class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown5" class="dropdown-content">
+                                <a href="training.html"><span>تدريب</span></a>
+                                <a href="courses.html"><span>كورسات</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <a href="#">المشاريع</a>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <a href="#">البروتوكلات والمشاريع</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left-nav">
+        <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <!-- End Header Section -->
+    <!-- Start Main-Section Section -->
+    <div class="main-section">
+        <div class="container">
+            <h3>دورات تدريبية</h3>
+            <div class="info">
+                <i class="fa-solid fa-bookmark"></i>
+                <h3>الرئيسية</h3>
+                <i class="fa-solid fa-angles-left"></i>
+                <span>تدريب</span>
+            </div>
+        </div>
+    </div>
+    <!-- End Main-Section Section -->
+    <div class="events">
+        <div class="container">
+            <p>دورات تدريبية لتاهيل لرفع الكفاءة الموظفين والمتطوعين : </p>
+            <p>تدريب وتاهيل متطوعين قادرين علي العمل المجتمعي وخدمة النفع العام .</p>
+            <p>تدريب وتاهيل فريق الاستجابة في حالات الطواري ( ادارة الكوارث والمخاطر ) .</p>
+            <p>تدريب وتاهيل فريق شباب استشاري للموسسة ( برنامج اعداد قادة للمستقبل ) .</p>
+        </div>
+    </div>
+
+    <!-- Start Footer Section -->
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <h3>نبذة عنا</h3>
+                <p>جمعيــة خيرية متخصصة في تقديم الخدمات الانسانية
+                    للمحتاجين
+                </p>
+                <div class="image">
+                    <img src="image/logo-01.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <h3>الروابط السريعة</h3>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">الرئيسية</a></li>
+                        <li><a href="#">نبذة عنا</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <h3>إتصل بنا</h3>
+                <div class="items">
+                    <div class="info">
+                        <a href="#">
+                            <i class="fa-solid fa-blender-phone"></i>
+                            <span>023232323</span>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <span>0101010101010</span>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>حلوان. موسسة شباب الخير</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="items-info">
+                <p>جميع الحقوق محفوظة &copy; جمعية <span>موسسة</span> <span>شباب الخير</span></p>
+            </div>
+            <div class="items-info">
+                <p>تصميم وتطوير : شركة هوك</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Section -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
